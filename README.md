@@ -39,11 +39,9 @@ cp ~/Downloads/conf_files/.bash_conf/* ~/.bash_conf/
 ```
 2) add following strings to end of ~/.bashrc
 ```bash
-vim ./.bashrc >>
-
-if [ -f ~/.bash_config/collect.sh ]; then
-    . ~/.bash_config/collect.sh 
-fi
+echo "if [ -f ~/.bash_config/collect.sh ]; then \
+    . ~/.bash_config/collect.sh \
+fi" >> ~/.bashrc
 ```
 
 3) source ~/.bashrc
