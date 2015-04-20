@@ -23,4 +23,12 @@ mv ~/vim/.vimrc ~/
 
 5) restart VIM
 
+### git promt
+
+1) download git-promt:
+```bash
+wget -O ~/Downloads/git-promt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+mkdir ~/.bash_config && cp ~/Downloads/git-promt.sh ~/.bash_config/
+```
+
 ### bash configs
