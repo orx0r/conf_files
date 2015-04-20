@@ -25,13 +25,31 @@ mv ~/vim/.vimrc ~/
 
 ### git promt
 
-1) download git-promt:
+download git-promt:
 ```bash
 wget -O ~/Downloads/git-promt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 mkdir ~/.bash_config && cp ~/Downloads/git-promt.sh ~/.bash_config/
 ```
 
 ### bash configs
+
+1) copy bash configs
+```bash
+cp ~/Downloads/conf_files/.bash_conf/* ~/.bash_conf/
+```
+2) add following strings to end of ~/.bashrc
+```bash
+vim ./.bashrc >>
+
+f [ -f ~/.bash_config/collect.sh ]; then
+    . ~/.bash_config/collect.sh 
+fi
+```
+
+3) source ~/.bashrc
+```bash
+. ~/.bashrc
+```
 
 ### install tmux
 
