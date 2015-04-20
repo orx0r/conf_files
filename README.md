@@ -32,3 +32,8 @@ mkdir ~/.bash_config && cp ~/Downloads/git-promt.sh ~/.bash_config/
 ```
 
 ### bash configs
+
+### install tmux
+
+(https://github.com/orx0r/conf_files/tree/master/tmux)
+
