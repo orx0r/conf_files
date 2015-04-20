@@ -24,3 +24,8 @@ mv ~/vim/.vimrc ~/
 5) restart VIM
 
 ### bash configs
+
+### install tmux
+
+(https://github.com/orx0r/conf_files/tree/master/tmux)
+
