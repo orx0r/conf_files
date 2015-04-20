@@ -41,7 +41,7 @@ cp ~/Downloads/conf_files/.bash_conf/* ~/.bash_conf/
 ```bash
 vim ./.bashrc >>
 
-f [ -f ~/.bash_config/collect.sh ]; then
+if [ -f ~/.bash_config/collect.sh ]; then
     . ~/.bash_config/collect.sh 
 fi
 ```
